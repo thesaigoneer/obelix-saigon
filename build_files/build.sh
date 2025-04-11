@@ -22,6 +22,7 @@ dnf5 install -y gnome-shell-extension-no-overview
 dnf5 install -y gnome-shell-extension-places-menu
 dnf5 remove -y  firefox
 dnf5 remove -y  nvtop
+dnf5 remove -y  malcontent
 
 #### Example for enabling a System Unit File
 
