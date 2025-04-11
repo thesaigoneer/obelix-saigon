@@ -21,7 +21,6 @@ dnf5 install -y gnome-shell-extension-caffeine
 dnf5 install -y gnome-shell-extension-no-overview
 dnf5 install -y gnome-shell-extension-places-menu
 dnf5 remove -y  firefox
-dnf5 remove -y  gnome-software
 dnf5 remove -y  gnome-tour
 dnf5 remove -y  gnome-tweaks
 dnf5 remove -y  malcontent
