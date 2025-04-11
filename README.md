@@ -19,7 +19,7 @@ Htop and vim are already included in the base image. So, in this image you'll fi
 
 And I removed:
 
-  -      firefox gnome-software gnome-tour gnome-tweaks malcontent nvtop yelp
+  -      firefox nvtop
 
 Specifically for this Gnome image I added some extensions ootb; you'll still have to activate them of course:
 
