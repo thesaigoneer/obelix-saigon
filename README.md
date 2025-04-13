@@ -15,7 +15,7 @@ That's right, those images are already very complete, yet application-wise prett
 
 Htop and vim are already included in the base image. So, in this image you'll find an Silverblue install to which I added my usual suspects:
 
-  -      eza fastfetch mc micro zsh zsh-autosuggestions
+  -      fastfetch mc micro zsh zsh-autosuggestions
 
 And I removed:
 
