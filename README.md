@@ -1,6 +1,6 @@
 # Obelix Saigon
 
-### Gnome based on the Silverblue spin of UniversalBlue
+### Gnome based on the main base image of UniversalBlue
 
 For my laptop I've become increasingly interested in Gnome. It just works, so after trying out many other projects I decided to roll my own.
 
@@ -13,17 +13,24 @@ I always use the latest branch, so updates to the latest Fedora will arrive auto
 
 That's right, those images are already very complete, yet application-wise pretty minimal. Adjusting those images has become much more easy than it was in the first couple of years. And for me there's always some fluff that can be removed.
 
-Htop and vim are already included in the base image. So, in this image you'll find an Silverblue install to which I added my usual suspects:
+Htop and vim are already included in this base image. So, in this image you'll find an Silverblue install to which I added my usual suspects:
 
-  -      fastfetch mc micro zsh zsh-autosuggestions
+  -      fastfetch
+  -      gdm
+  -      gnome-control-center
+  -      gnome-session-wayland-session
+  -      gnome-shell
+  -      gvfs, gvfs-archive, gvfs-client, gvfs-fuse, gvfs-mtp, gvfs-smb,
+  -      mc
+  -      nautilus, nautilus-extensions
+  -      ptyxis
+  -      zsh, zsh-autosuggestions
 
 And I removed:
-
-  -      firefox nvtop
-
-Specifically for this Gnome image I added some extensions ootb; you'll still have to activate them of course:
-
-  -      gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell gnome-shell-extension-caffeine gnome-shell-extension-no-overview gnome-shell-extension-places-menu
+  -      firefox
+  -      gnome-tour
+  -      hplip
+  -      nvtop
 
 ### Rebase
 
@@ -47,7 +54,7 @@ Log in into obelix-saigon!
 
 ### First things first:
 
-Now you have an Ublue Silverblue install, based on Fedora, so there's no Flathub enabled ootb. Let's rectify that first:
+Now you have an Ublue base image install, based on Fedora, so there's no Flathub enabled ootb. Let's rectify that first:
 
     flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo 
     
