@@ -36,34 +36,33 @@ And I removed:
 
 First install the base iso of Fedora Sway Atomic or another Fedora atomic, like Silverblue , and then:
 
-    rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/obelix-saigon:latest
+-        rpm-ostree rebase ostree-unverified-registry:ghcr.io/thesaigoneer/obelix-saigon:latest
 
 After that first step:
 
-    systemctl reboot
+-        systemctl reboot
 
 Log in again and switch to the signed image:
 
-    rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/obelix-saigon:latest
+-        rpm-ostree rebase ostree-image-signed:docker://ghcr.io/thesaigoneer/obelix-saigon:latest
 
 Finish with:
 
-    systemctl reboot
+-        systemctl reboot
     
-Log in into obelix-saigon!
+Welcome to Obelix-Saigon!
 
 ### First things first:
 
 Now you have an Ublue base image install, based on Fedora, so there's no Flathub enabled ootb. Let's rectify that first:
 
-    flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo 
+-        flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo 
     
 Then install three flatpaks: 
 
-    flatpak install extensionmanager refine flatseal
+-        flatpak install extensionmanager refine flatseal
 
 I'd suggest you also install a browser of choice to get started. But all of this is up to the end user (being yourself obviously).
-
 
 Enjoy your freshly installed Obelix-Saigon!
 
