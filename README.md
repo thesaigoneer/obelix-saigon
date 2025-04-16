@@ -27,7 +27,7 @@ Htop and vim are already included in this base image. So, in this image you'll f
          zsh, zsh-autosuggestions
 
 And I removed:
-  -      firefox
+-        firefox
          gnome-tour
          hplip
          nvtop
