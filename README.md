@@ -20,7 +20,7 @@ Htop and vim are already included in this base image. So, in this image you'll f
          gnome-control-center
          gnome-session-wayland-session
          gnome-shell
-         gvfs, gvfs-archive, gvfs-client, gvfs-fuse, gvfs-mtp, gvfs-smb,
+         gvfs, gvfs-archive, gvfs-client, gvfs-fuse, gvfs-mtp, gvfs-smb
          mc
          nautilus, nautilus-extensions
          ptyxis
@@ -28,9 +28,9 @@ Htop and vim are already included in this base image. So, in this image you'll f
 
 And I removed:
   -      firefox
-  -      gnome-tour
-  -      hplip
-  -      nvtop
+         gnome-tour
+         hplip
+         nvtop
 
 ### Rebase
 
