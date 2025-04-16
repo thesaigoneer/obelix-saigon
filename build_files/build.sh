@@ -15,14 +15,9 @@ dnf5 install -y mc
 dnf5 install -y micro
 dnf5 install -y zsh
 dnf5 install -y zsh-autosuggestions
-dnf5 install -y gnome-shell-extension-appindicator
-dnf5 install -y gnome-shell-extension-blur-my-shell
-dnf5 install -y gnome-shell-extension-caffeine
-dnf5 install -y gnome-shell-extension-no-overview
-dnf5 install -y gnome-shell-extension-places-menu
 dnf5 remove -y  firefox
 dnf5 remove -y  nvtop
-
+dnf5 remove -y malcontent
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
