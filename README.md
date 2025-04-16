@@ -15,16 +15,16 @@ That's right, those images are already very complete, yet application-wise prett
 
 Htop and vim are already included in this base image. So, in this image you'll find an Silverblue install to which I added my usual suspects:
 
-  -      fastfetch
-  -      gdm
-  -      gnome-control-center
-  -      gnome-session-wayland-session
-  -      gnome-shell
-  -      gvfs, gvfs-archive, gvfs-client, gvfs-fuse, gvfs-mtp, gvfs-smb,
-  -      mc
-  -      nautilus, nautilus-extensions
-  -      ptyxis
-  -      zsh, zsh-autosuggestions
+-        fastfetch
+         gdm
+         gnome-control-center
+         gnome-session-wayland-session
+         gnome-shell
+         gvfs, gvfs-archive, gvfs-client, gvfs-fuse, gvfs-mtp, gvfs-smb,
+         mc
+         nautilus, nautilus-extensions
+         ptyxis
+         zsh, zsh-autosuggestions
 
 And I removed:
   -      firefox
