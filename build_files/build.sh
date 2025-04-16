@@ -17,7 +17,6 @@ dnf5 install -y zsh
 dnf5 install -y zsh-autosuggestions
 dnf5 remove -y  firefox
 dnf5 remove -y  nvtop
-dnf5 remove -y malcontent
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
