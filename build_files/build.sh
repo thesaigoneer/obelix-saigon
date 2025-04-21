@@ -10,7 +10,6 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y fastfetch
 dnf5 install -y gdm
 dnf5 install -y gnome-control-center
 dnf5 install -y gnome-session-wayland-session
@@ -21,7 +20,6 @@ dnf5 install -y gvfs-client
 dnf5 install -y gvfs-fuse
 dnf5 install -y gvfs-mtp
 dnf5 install -y gvfs-smb
-dnf5 install -y mc
 dnf5 install -y nautilus
 dnf5 install -y nautilus-extensions
 dnf5 install -y ptyxis
@@ -35,6 +33,8 @@ dnf5 install -y  procps-ng curl file git
 dnf5 remove -y firefox
 dnf5 remove -y gnome-tour
 dnf5 remove -y hplip
+dnf5 remove -y hplip-common
+dnf5 remove -y hplip-libs
 dnf5 remove -y nvtop
 #### Example for enabling a System Unit File
 
